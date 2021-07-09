@@ -1,0 +1,22 @@
+.menu-content {
+  display: flex;
+  height: 40px;
+  background-color: var(--gray);
+  justify-content: space-between;
+}
+
+.menu-content :nth-child(n) {
+  border-bottom: 1px solid lightgray;
+}
+
+.menu-content :nth-child(2n + 1) {
+  width: 230px;
+}
+
+.menu-content :nth-child(2) {
+  width: 980px;
+  color: rgb(148, 144, 144);
+  padding-top: 12px;
+  padding-left: 15px;
+  font-size: 12px;
+}

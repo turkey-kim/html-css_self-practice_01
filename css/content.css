@@ -1,0 +1,15 @@
+.content {
+  display: flex;
+}
+
+.content :nth-child(2n + 1) {
+  height: 2000px;
+  width: 230px;
+}
+
+.content :nth-child(2) {
+  height: 2000px;
+  width: 980px;
+  border-right: 1px solid lightgray;
+  border-left: 1px solid lightgray;
+}

@@ -1,0 +1,16 @@
+.main-content {
+ margin: none;
+ padding: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-content__title {
+  font-size: 30px;
+  text-align: center;
+  border: 1px solid black;
+  margin 10px;
+  width: 700px;
+  height: 400px;
+}

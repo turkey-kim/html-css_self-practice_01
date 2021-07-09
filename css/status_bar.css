@@ -1,0 +1,57 @@
+.status-bar-01 {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--blue);
+  padding-top: 10px;
+  color: lightgray;
+}
+
+
+.status-bar-01__01 :first-child {
+  margin: 0px 20px 0px 10px;
+}
+
+.status-bar-01__02 :nth-child(n) {
+  margin: 0px 10px;
+  font-size: 12px;
+}
+
+.status-bar-01__02 :nth-child(3) {
+  padding-right: 10px;
+}
+
+.status-bar-02 {
+  background-color: var(--blue);
+  text-align: center;
+  color: white;
+}
+
+.status-bar-02__01 {
+  font-size: 30px;
+  padding-top: 50px;
+  padding-bottom: 4px;
+}
+
+.status-bar-02__02 {
+  font-size: 15px;
+  padding-bottom: 10px;
+  opacity: 0.5;
+}
+
+.status-bar-03 {
+  background-color: var(--blue);
+  padding-top: 15px;
+  padding-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  color: lightgray;
+  font-size: 15px;
+}
+
+.status-bar-03 :nth-child(n) {
+  padding: 0px 15px;
+  border-right: 1px solid gray;
+}
+
+.status-bar-03 :nth-child(9) {
+    border: none;
