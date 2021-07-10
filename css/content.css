@@ -1,7 +1,7 @@
 .main-content {
   display: flex;
   width: 980px;
-  height: 700px;
+  height: 900px;
   margin-left: 230px;
   margin-right: 230px;
   border-left: 1px solid lightgray;
@@ -29,10 +29,11 @@
 .main-content__02 {
   background-color: #daecf7;
   padding: 10px;
-  font-size: 15px;
+  font-size: 13px;
   margin: 45px 115px;
   text-align: justify;
   color: #3583a9;
+  margin-bottom: 0px;
 }
 
 .main-content__02 a {
@@ -43,4 +44,26 @@
 .main-content__01 p {
   font-size: 13px;
   opacity: 0.4;
+}
+
+.main-content__03 {
+  border-bottom: 1px dotted gray;
+  margin: 0px 115px;
+}
+
+.main-content__03 h2 {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.main-content__04 {
+  margin: 10px 115px;
+  font-size: 13px;
+}
+
+.img01 img {
+  width: 500px;
+  margin: 100px 240px 200px 240px;
 }
